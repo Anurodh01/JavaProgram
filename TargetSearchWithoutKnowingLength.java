@@ -4,8 +4,7 @@ public class TargetSearchWithoutKnowingLength {
     public static void main(String[] args) {
         int[] arr = {1, 2, 9, 10, 200, 400, 600, 901, 1000, 1020,3000, 6000, 10000,100000 };
     // suppose we don't know the array size
-        System.out.println(getTheNumberRange(arr, 200));
-        
+        System.out.println(getTheNumberRange(arr, 200)); 
     }
     static int getTheNumberRange(int[] arr,int target){
     int start = 0;
@@ -28,5 +27,5 @@ public class TargetSearchWithoutKnowingLength {
                 end = middle - 1;
             }
     }return -1;
-    }
+   }
 }
